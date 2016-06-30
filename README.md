@@ -2,7 +2,7 @@
 
 This image is meant to share volume with generated credentials file to web server.
 
-Run `docker run -t -v /data getapp/htpasswd /data/htpasswd myuser`.
+Run `docker run -t -v /data getapp/random-htpasswd /data/htpasswd myuser`.
 Output will include your credentials:
 ```
   =============== CREDENTIALS ================
